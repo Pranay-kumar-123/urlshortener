@@ -25,7 +25,7 @@ app.get('/su/:id', function(req, res){
     res.sendFile(__dirname+ '/frontend/html/su.html'); 
  })
 app.get('/', function(req, res){
-   res.sendFile(__dirname+ '/frontend/html/shorturl.html'); 
+   res.sendFile(__dirname+ '/frontend/html/shorturl.html');
 })
 
 app.use(express.static(__dirname+'/frontend'));
