@@ -18,7 +18,7 @@ function short() {
             response=JSON.parse(JSON.stringify(response));
              response=response.result;
              //console.log(response);
-             document.getElementById("insert").innerHTML=response[0].shortid;
+             document.getElementById("insert").innerHTML="https://shorturl9.herokuapp.com/su/"+response[0].shortid;
         }, //sucess
         error: function(error) { } //error
     });}
