@@ -1,24 +1,28 @@
 {
-  "name": "mongodb",
+  "name": "firstwebdev",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "firstsite",
+  "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Pranay-kumar-123/mongodb.git"
+    "url": "git+https://github.com/AkhilNarayan123/firstwebdev.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Pranay-kumar-123/mongodb/issues"
+    "url": "https://github.com/AkhilNarayan123/firstwebdev/issues"
   },
-  "homepage": "https://github.com/Pranay-kumar-123/mongodb#readme",
+  "homepage": "https://github.com/AkhilNarayan123/firstwebdev#readme",
   "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "mongoose": "^5.10.1"
-  }
+    "mongoose": "^5.12.9",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {}
 }
